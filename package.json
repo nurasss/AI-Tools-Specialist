@@ -1,0 +1,33 @@
+{
+  "name": "gbc-analytics-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "upload:mock": "tsx scripts/upload-mock.ts",
+    "sync:orders": "tsx scripts/sync-orders.ts",
+    "notify:test": "tsx scripts/test-notify.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.54.0",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.1.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "^24.6.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^15.3.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,6 +1,9 @@
 node_modules/
 .env
 .env.local
+.next/
+out/
+coverage/
 __pycache__/
 *.pyc
 .venv/
